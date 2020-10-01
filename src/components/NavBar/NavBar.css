@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #1b4332 !important;
+}
+.nav-link {
+  color: #fefae0 !important;
+  font-family: inherit;
+  font-size: large;
+}
+.navbar-brand {
+  color: #fefae0 !important;
+  font-family: cursive;
+  font-size: x-large;
+}
