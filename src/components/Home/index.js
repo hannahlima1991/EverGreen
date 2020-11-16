@@ -135,18 +135,3 @@ function Home(props) {
 }
 
 export default Home;
-
-//API REQUEST
-// const apiKey = "8f4lAHw";
-// const apiRequest = `http://strainapi.evanbusse.com/${apiKey}/strains/search/all`;
-
-// useEffect(() => {
-//   getStrainList();
-// }, []);
-
-// const getStrainList = async () => {
-//   const response = await fetch(apiRequest);
-//   console.log(response);
-//   const data = await response.json();
-//   console.log(data);
-// };
