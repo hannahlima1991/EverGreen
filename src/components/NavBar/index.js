@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div className="App">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           EverGreen
         </a>
         <button
@@ -21,16 +21,16 @@ function Nav() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#">
+            <a class="nav-link active" href="/">
               Home
             </a>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/sativas">
               Sativa
             </a>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/indicas">
               Indica
             </a>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/hybrids">
               Hybrids
             </a>
           </div>

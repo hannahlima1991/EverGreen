@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+.carousel-item img {
+  height: 500px;
+}
+.carousel {
+  margin-top: 100px;
+}
+.carousel-caption {
+  color: #fefae0 !important;
+  font-size: x-large !important;
+  font-family: inherit !important;
+  font-weight: bolder !important;
+}
+.card-group {
+  margin: 30px;
+}
+.col-lg-3 {
+  background-color: red;
+  margin: 5px;
+}
