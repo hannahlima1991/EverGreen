@@ -4,12 +4,12 @@ import "./NavBar.css";
 function Nav() {
   return (
     <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="/">
           EverGreen
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -17,20 +17,20 @@ function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="/">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-link active" href="/">
               Home
             </a>
-            <a class="nav-link" href="/sativas">
+            <a className="nav-link" href="/sativas">
               Sativa
             </a>
-            <a class="nav-link" href="/indicas">
+            <a className="nav-link" href="/indicas">
               Indica
             </a>
-            <a class="nav-link" href="/hybrids">
+            <a className="nav-link" href="/hybrids">
               Hybrids
             </a>
           </div>

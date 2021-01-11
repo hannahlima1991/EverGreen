@@ -5,6 +5,7 @@ import Nav from "./components/NavBar";
 import Sativa from "./components/Sativa";
 import Indica from "./components/Indica";
 import Hybrid from "./components/Hybrid";
+import StrainDetails from "./components/StrainDetails";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/sativas" exact component={Sativa} />
           <Route path="/indicas" exact component={Indica} />
           <Route path="/hybrids" exact component={Hybrid} />
+          <Route path="/strain/:name/:id" exact component={StrainDetails} />
         </Switch>
       </div>
     </Router>
